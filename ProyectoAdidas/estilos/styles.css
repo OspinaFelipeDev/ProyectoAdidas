@@ -1,0 +1,84 @@
+/*Aqui voy a colocar un comentario */
+
+/* IDENTIFICADORES: class (.)= clases que permiten manejar un disseño para diferentes elementos (class="su_clase")
+ID (#)= me permite manejae un dieseño para un solo elemento (id=su_ID)
+SELECTOR(etiqueta) = me permite manejar un diseño para diferentes etiquetas (etiquete(p-header-div-footer-epan, etc...))
+PROPIEDADES: 
+ color: color del texto
+ font-size: da el tamaño
+ widht: cambia el anchor
+ height: auto, cambia la altura
+*/
+
+* {
+    margin: 0;
+    padding: 0;  /*  sirve para quitar el margen de la pagina  */
+}
+
+/*  id  */
+#imagen-logo{
+    width: 120px;
+    height: auto;
+}
+#TextoAzul {
+    color: blue;
+}
+
+/*Class */
+.listado {
+    color: red;
+    font-size: 20px; /*  cambia el tamaño de letra  */
+}
+
+.textosAzules {
+    color: blue;
+    font-size:50px;
+}
+.textosRosas {
+    color: pink;
+}
+/*Selector */
+
+p{
+    color: green;
+    font-size: 30px;
+}
+header {
+    background-color:grey;
+    color: purple;
+    padding: 10px;  
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 80px;
+    text-align: center;
+}
+
+.navbar {
+    flex: 1;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;    /*  sirve para centar o alinear a la derecha o isquierda  */
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a:hover {
+    color: aqua;
+}
+
+
